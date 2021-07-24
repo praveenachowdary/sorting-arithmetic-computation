@@ -8,3 +8,8 @@ uc2=$(($a+($b*$c)))
 uc3=$((($a*$b)+$c))
 uc4=$(($c +($a/$b)))
 uc5=$((($a%$b)+$c))
+declare -A arithmetic
+arithmetic[uc2]="$uc2"
+arithmetic[uc3]="$uc3"
+arithmetic[uc4]="$uc4"
+arithmetic[uc5]="$uc5"
